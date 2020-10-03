@@ -1,0 +1,7 @@
+list of untracked files, changes not staged for commit.
+-----------------------
+    1. git status
+
+Note: git add <file name> to track untracked files
+-------------------------------------------------------------------------------------
+
