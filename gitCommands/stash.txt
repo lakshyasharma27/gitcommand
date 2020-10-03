@@ -1,0 +1,5 @@
+#stash is used to save your work and go to last pull
+--------------------------------------------------------------------
+Revert your changes to check how was your file before you updated it
+---------------------------------------------------------------------
+    1. git stash save "added stash command file"
