@@ -63,8 +63,13 @@ Create a Feature Branch
     4. //Update files in feature1
     5. git add <file names>
     6. git commit -m " message"     //git commit to feature1 branch locally
+    7. git push -u origin feature1
 
-    
-
+-----------------------------------------------------------------------------
+Merge feature1 to develop
+-------------------------
+    1. git checkout develop
+    2. git merge feature1       //feature1 is merged to develop branch
+    3. git branch -d feature1   // after feature1 is completed delete feature1 branch
 ----------------------------------------------------------
 project structure contains .gitignore, LICENSE, README.md
