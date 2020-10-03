@@ -15,11 +15,32 @@ Steps:
 
 ----------------------------------------------------------------------------------
 
-Add A Tag
+Add A Tag [ Tag a marks the last commit as a production commit with a tag.]
 ---------
     1. git tag -a v1.0 -m "added first tag"     //creates a tag
     2. git show v1.0    //shows tag information, files and other things.
     3. git tag      //shows tag name
+    4. git push --tags origin main     // to add tag to remote repo
 NOTE: -a is annotated
 
 ------------------------------------------------------------------------------------
+
+Check git logs
+--------------
+    1. git logs //print all the information about the git commit and user
+    
+    or
+
+    2. git log --oneline --decorate --graph --all
+        in linux put it as alias glog
+
+-------------------------------------------------------------------------------------
+Create A Branch
+---------------
+# main contains only production release
+    1. git branch develop   //create a develop branch
+    2. git branch       //shows all the branches
+    3. git checkout develop     //to switch to develop branch
+
+
+project structure contains .gitignore, LICENSE, README.md
