@@ -10,6 +10,10 @@
 2. cat ~/.gitconfig
     To check git configuration file.
 
+3. Add username and useremail
+    git config [--global] user.name "Full Name"
+    git config [--global] user.email "email@address.com"
+
 
 
 -----------------------------------------------------------------------------------------
@@ -45,7 +49,34 @@ How to clone
         3.git commit -m "first commit"
         4.git branch -M main
         5.git remote add origin https://github.com/lakshyasharma27/gitcommand.git
+            origin is default name for link repo
+ 
         6.git push -u origin main
 
 NOTE: git add file1 file2 .......
 ----------------------------------------------------------------------------------------
+How to Add new file
+-------------------
+    1. create a file 
+    2. git status   //shows details of new files(tracked and untracked)
+    3. git add <file name>
+    4. git commit -m "message"
+    5. git push -u origin main
+
+Note: git commit helps in tracing the logs of commits. We can move back. Works locally
+-------------------------------------------------------------------------------------------
+
+
+
+
+
+How to Add and remove remote repo
+--------------------------------------
+1. git remote add origin <git url>
+    adds remote repo
+2. git remote -v
+    to check the remote repo added
+3. git remote remove <repo name> 
+    to remove a repo
+------------------------------------------------------------------------------------------
+

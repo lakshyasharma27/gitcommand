@@ -1,7 +1,9 @@
-list of untracked files, changes not staged for commit.
+list of untracked files, changes not staged for commit, changes to commited.
 -----------------------
     1. git status
 
-Note: git add <file name> to track untracked files
+Note:   1.git add <file name> to track untracked files.
+        2.if nothing changes shows working tree clean    
+
 -------------------------------------------------------------------------------------
 
