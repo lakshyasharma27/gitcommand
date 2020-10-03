@@ -2,4 +2,8 @@
 --------------------------------------------------------------------
 Revert your changes to check how was your file before you updated it
 ---------------------------------------------------------------------
-    1. git stash save "added stash command file"
+    1. git stash save "updated stash command file"
+    2. //stash command file revert back to last git pull
+    3. git stash list   // gives stash list
+    4. git stash apply <stash@{0}>
+    
