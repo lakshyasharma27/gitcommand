@@ -1,0 +1,25 @@
+# Branching (creating. switching , merging and deleting)
+# Tagging/Releasing
+# Git Logs
+
+Steps:
+1. creating new branch from develop branch call it something like feature/something
+2. work on feature, committing to this feature branch
+3. test your feature
+4. merge your feature branch into develop
+5. delete your feature branch
+6. once features are finished/bug fixed, prepare your release
+7. when released is tested and prepped merge develop into master
+8. tag ,aster branch commit with release number
+9. repeat
+
+----------------------------------------------------------------------------------
+
+Add A Tag
+---------
+    1. git tag -a v1.0 -m "added first tag"     //creates a tag
+    2. git show v1.0    //shows tag information, files and other things.
+    3. git tag      //shows tag name
+NOTE: -a is annotated
+
+------------------------------------------------------------------------------------

@@ -14,9 +14,8 @@
     git config [--global] user.name "Full Name"
     git config [--global] user.email "email@address.com"
 
-
-
 -----------------------------------------------------------------------------------------
+
 Set git ssh-key keys:
 ---------------------
 
@@ -27,14 +26,14 @@ Set git ssh-key keys:
 3. github.com -> setting -> SSH and GPG keys --> add title and paste output from above command to "key"
 
 ------------------------------------------------------------------------------------------
+
 create a repo
 -------------
 
 1. github --> + button -> new repo [add repo name and description. Click create repo]
 
+------------------------------------------------------------------------------------------------
 
-
----------------------------------------------------------------------------------------s
 How to clone
 -----------
     CLONE USING GIT URL
@@ -54,7 +53,9 @@ How to clone
         6.git push -u origin main
 
 NOTE: git add file1 file2 .......
-----------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------
+
 How to Add new file
 -------------------
     1. create a file 
@@ -64,11 +65,15 @@ How to Add new file
     5. git push -u origin main
 
 Note: git commit helps in tracing the logs of commits. We can move back. Works locally
--------------------------------------------------------------------------------------------
 
+---------------------------------------------------------------------------------------------------------------
 
+File updated or created on remote repo. 
+---------------------------------------
+    1. git pull origin main     //shows fast forwarding and update the local repo.
+NOTE: you made no change in same file updated or created in remote repo
 
-
+-----------------------------------------------------------------------------------------------------------------
 
 How to Add and remove remote repo
 --------------------------------------
