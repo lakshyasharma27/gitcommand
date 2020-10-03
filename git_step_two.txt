@@ -46,7 +46,7 @@ Create A Branch
 
 --------------------------------------------------------------------------------------
 
-Practical Example [create develop remote repo and merge with master] :
+Practical Example [ create develop remote repo and merge with master ] :
     1. after creation of develop
     2. edit a files
     3. git add <file name>
