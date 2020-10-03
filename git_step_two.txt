@@ -87,8 +87,27 @@ If main is updated but develop branch is outdated. Want to update from main.
     1.  git checkout develop
     2.  git pull origin main
 
+NOTE: After merging psuh the changes.
 ----------------------------------------------------------------------------------------------------------------------------
 
-NOTE: After merging psuh the changes.
+Till here all the branches were pushed to origin so branches were created both locally and remotely.
+
+Create a branch locally and merge with develop without creating branch remotely
+-------------------------------------------------------------------------------
+    1. git branch feature2  //create feature2 from develop branch.
+    2. git checkout feature2
+    3. //updated feature2 and only git add, git commit but no push origin.
+    4. git add .
+    5. git commit -m "adding feature2"
+    6. git checkout develop
+    7. git merge feature2
+    8. git push origin develop
+    
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
 
 project structure contains .gitignore, LICENSE, README.md
