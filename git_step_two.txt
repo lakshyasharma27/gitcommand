@@ -46,12 +46,15 @@ Create A Branch
 
 --------------------------------------------------------------------------------------
 
-Practical Example:
+Practical Example [create develop remote repo and merge with master] :
     1. after creation of develop
     2. edit a files
     3. git add <file name>
     4. git commit -m "message"
-    5. git push -u origin develop
+    5. git push -u origin develop       //adds develop branch as remote repo
+
+---------------------------------------------------------------------------------------
+
 
 
 project structure contains .gitignore, LICENSE, README.md
