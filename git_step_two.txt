@@ -55,6 +55,14 @@ Practical Example [create develop remote repo and merge with master] :
 
 ---------------------------------------------------------------------------------------
 
+Create a Feature Branch
+-----------------------
+    1. git branch feature1
+    2. git status       //working tree should be clean
+    3. git checkout feature1
+    4. //Update files in feature1
+    
+    
 
-
+----------------------------------------------------------
 project structure contains .gitignore, LICENSE, README.md
