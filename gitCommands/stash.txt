@@ -7,7 +7,15 @@ This is my new stash comment
     2. //stash command file revert back to last git pull
     3. git stash list   // gives stash list
     4. git stash apply <stash@{0}>
+        or 
+    5. git stash pop
 
+-----------------------------------------------------------------------------
+
+if you checkout to main and made changes. Then your try checkout to develop
+    1. git stash save "asdasd"
+    2.git checkout develop
+    3. git stash pop // updates comes in develop from main
 
 ------------------------------------------------------------------------
 Drop All the stash
