@@ -35,12 +35,23 @@ Check git logs
         in linux put it as alias glog
 
 -------------------------------------------------------------------------------------
+
 Create A Branch
 ---------------
 # main contains only production release
     1. git branch develop   //create a develop branch
     2. git branch       //shows all the branches
     3. git checkout develop     //to switch to develop branch
+    4.git branch -d <branch name>     //delete the branch
+
+--------------------------------------------------------------------------------------
+
+Practical Example:
+    1. after creation of develop
+    2. edit a files
+    3. git add <file name>
+    4. git commit -m "message"
+    5. git push -u origin develop
 
 
 project structure contains .gitignore, LICENSE, README.md
