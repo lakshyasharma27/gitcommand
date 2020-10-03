@@ -72,4 +72,10 @@ Merge feature1 to develop
     2. git merge feature1       //feature1 is merged to develop branch
     3. git branch -d feature1   // after feature1 is completed delete feature1 branch
 ----------------------------------------------------------
+
+merge develop to master
+-----------------------
+    1. git checkout main
+    2. git merge develop
+    
 project structure contains .gitignore, LICENSE, README.md
