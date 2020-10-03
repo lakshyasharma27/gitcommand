@@ -61,7 +61,9 @@ Create a Feature Branch
     2. git status       //working tree should be clean
     3. git checkout feature1
     4. //Update files in feature1
-    
+    5. git add <file names>
+    6. git commit -m " message"     //git commit to feature1 branch locally
+
     
 
 ----------------------------------------------------------
