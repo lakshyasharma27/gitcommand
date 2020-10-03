@@ -1,0 +1,18 @@
+#stash is used to save your work and go to last pull
+--------------------------------------------------------------------
+Revert your changes to check how was your file before you updated it
+This is my new stash comment
+---------------------------------------------------------------------
+    1. git stash save "updated stash command file"
+    2. //stash command file revert back to last git pull
+    3. git stash list   // gives stash list
+    4. git stash apply <stash@{0}>
+
+
+------------------------------------------------------------------------
+Drop All the stash
+-------------------
+    1. git stash drop   // drop All
+    2. git stash drop <stash:id>    //drop specific stash id
+    3. git stash clear
+    
