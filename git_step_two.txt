@@ -103,10 +103,6 @@ Create a branch locally and merge with develop without creating branch remotely
     7. git merge feature2
     8. git push origin develop
     
-
-
-
-
 --------------------------------------------------------------------------------------------------------------------------------
 
 
