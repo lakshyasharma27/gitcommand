@@ -63,8 +63,8 @@ How to clone
         1.  git clone <git clone url> <inside folder name>
             create a folder containing git repo 
     
-    CLONE USING COMMAND LINE
-    ------------------------
+    CREATE A REPO USING COMMAND LINE
+    -------------------------------
         1. git init
         2.git add README.md
         3.git commit -m "first commit"
